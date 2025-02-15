@@ -1,0 +1,8 @@
+.dashboardContainer {
+  padding: 50px;
+}
+.dashboardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

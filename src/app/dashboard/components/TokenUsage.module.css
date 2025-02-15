@@ -1,0 +1,51 @@
+.tokenInfo {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.progressContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.percentValue {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--ant-color-text);
+}
+
+.tokenValues {
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.tokenDetails {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 24px 0;
+  text-align: center;
+}
+
+.tokenDetails > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.upgradeButton {
+  margin-top: 16px;
+}
+
+:global(.ant-progress-text) {
+  color: var(--ant-color-text) !important;
+}
+
+:global(.ant-progress-circle .ant-progress-text) {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+} 

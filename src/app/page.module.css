@@ -166,3 +166,10 @@ a.secondary {
     filter: invert();
   }
 }
+
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

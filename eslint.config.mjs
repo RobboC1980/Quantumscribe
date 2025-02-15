@@ -1,16 +1,20 @@
-import { dirname } from "path";
-import { fileURLToPath } from "url";
-import { FlatCompat } from "@eslint/eslintrc";
+import { defineConfig } from 'eslint-define-config';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
+export default defineConfig({
+  root: true,
+  extends: [
+    'next/core-web-vitals',
+    'plugin:@typescript-eslint/recommended',
+    'prettier'
+  ],
+  rules: {
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    'no-inline-styles/no-inline-styles': 'error'
+  },
+  plugins: ['@typescript-eslint', 'no-inline-styles'],
+  settings: {
+    react: {
+      version: 'detect'
+    }
+  }
 });
-
-const eslintConfig = [
-  ...compat.extends("next/core-web-vitals", "next/typescript"),
-];
-
-export default eslintConfig;

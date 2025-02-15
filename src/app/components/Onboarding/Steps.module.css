@@ -1,0 +1,16 @@
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.stepsContent {
+  margin: 40px 0;
+}
+
+.stepsAction {
+  margin-top: 24px;
+}
+
+.nextButton {
+  margin-left: 8px;
+} 

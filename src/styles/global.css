@@ -1,0 +1,22 @@
+:root {
+  --background: #192230;
+  --text: #FFFFFF;
+  --primary: #F26522;
+  --secondary: #00AEB5;
+  --accent: #00AEB5;
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+  font-family: var(--font-inter);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-space-mono);
+}
+
+.ant-btn-primary {
+  background: var(--primary) !important;
+  border-color: var(--primary) !important;
+} 

@@ -1,0 +1,44 @@
+.activityItem {
+  padding: 16px !important;
+}
+
+.activityContent {
+  width: 100%;
+}
+
+.activityHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.timestamp {
+  font-size: 12px;
+}
+
+.note {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.tokens {
+  font-size: 12px;
+}
+
+:global(.ant-tag) {
+  text-transform: capitalize;
+  margin: 0;
+}
+
+:global(.ant-list-item) {
+  padding: 12px 0 !important;
+}
+
+:global(.ant-list-item:last-child) {
+  border-bottom: none !important;
+}
+
+:global(.ant-empty) {
+  margin: 32px 0;
+} 

@@ -1,0 +1,9 @@
+.checkout-container {
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.checkout-heading {
+  color: var(--primary);
+  margin-bottom: 30px;
+} 

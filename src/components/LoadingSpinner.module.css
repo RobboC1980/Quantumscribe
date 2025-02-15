@@ -1,0 +1,38 @@
+.spinnerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  width: 100%;
+  min-height: 200px;
+}
+
+.spinnerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spinnerContent {
+  margin-top: 16px;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinnerTip {
+  color: var(--ant-color-primary);
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+/* Apply global styles through local classes */
+.spinnerContainer :global(.ant-spin) {
+  color: inherit;
+}
+
+.spinnerContainer :global(.ant-spin-text) {
+  margin-top: 8px;
+  color: inherit;
+} 

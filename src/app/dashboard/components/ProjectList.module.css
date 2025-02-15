@@ -1,0 +1,36 @@
+.projectItem {
+  padding: 16px !important;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.projectItem:hover {
+  background-color: var(--ant-color-bg-base);
+}
+
+.description {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.status {
+  text-transform: capitalize;
+}
+
+:global(.ant-list-item-meta-title) {
+  margin-bottom: 8px !important;
+}
+
+:global(.ant-list-item-action) {
+  margin-left: 48px !important;
+}
+
+:global(.ant-empty) {
+  padding: 24px;
+}
+
+:global(.ant-list-item-meta-description) {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+} 
